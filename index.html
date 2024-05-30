@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipping Card UI Design</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="powerchart.js" type="module"></script>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="card front-face">
+          <header>
+            <span class="logo">
+              <!--<img src="images/logo.png" alt="" />-->
+              <h5>Power</h5>
+            </span>
+           <!--<img src="images/chip.png" alt="" class="chip" />-->
+          </header>
+
+          <div class="card-details">
+            <h1>324 W</h1>
+          </div>
+        </div>
+
+        <div class="card back-face">
+            <div class="widget">
+                <h2>Power</h2>
+                <canvas id="powerChart"></canvas>
+            </div>
+          
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
